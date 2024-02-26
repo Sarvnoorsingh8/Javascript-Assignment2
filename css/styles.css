@@ -1,0 +1,94 @@
+/* Base styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Set the font family */
+    background-color: #f0f0f0; /* Set the background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px; /* Set the maximum width of the container */
+    margin: 20px auto; /* Center the container horizontally with 20px margin at top and bottom */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #fff; /* Set the background color of the container */
+    border-radius: 8px; /* Add border radius to give rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle effect */
+}
+
+/* Heading styles */
+h1 {
+    color: #333; /* Set the color of the heading */
+    text-align: center; /* Center align the heading */
+}
+
+/* Student ID paragraph styles */
+.student-id {
+    text-align: center; /* Center align the student ID paragraph */
+}
+
+/* Styles for sections containing inputs */
+.input-section,
+.button-section,
+.select-section {
+    margin-bottom: 20px; /* Add margin at the bottom of each section */
+}
+
+/* Label styles */
+label {
+    font-weight: bold; /* Make labels bold */
+}
+
+/* Styles for input fields and buttons */
+input[type="number"],
+button {
+    padding: 10px 20px; /* Add padding to input fields and buttons */
+    border: none; /* Remove borders */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Specific styles for number input */
+input[type="number"] {
+    width: 100%; /* Set input width to 100% */
+    box-sizing: border-box; /* Include padding and border in input width */
+}
+
+/* Styles for custom color button */
+button.custColor {
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+}
+
+/* Styles for random color button */
+button.randColor {
+    background-color: #6c757d; /* Set background color */
+    color: #fff; /* Set text color */
+}
+
+/* Button hover styles */
+button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Styles for select dropdown */
+select {
+    padding: 10px; /* Add padding */
+    border-radius: 4px; /* Add border radius */
+    width: 100%; /* Set width to 100% */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Image styles */
+img {
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow for a subtle effect */
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth scaling */
+}
+
+/* Image hover styles */
+img:hover {
+    transform: scale(1.05); /* Scale image on hover */
+}
